@@ -1,0 +1,3 @@
+- 物体検出のDataSetの`__getItem__()`はimageとアノテーションデータを返す．
+- DataLoaderの実装には，`collate_fn()`を実装する必要がある．なぜなら，アノテーションデータ数が変わってくるため．
+- `collate_fn()`の引数は`batch`
